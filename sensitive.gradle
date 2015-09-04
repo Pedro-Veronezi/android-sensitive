@@ -1,0 +1,24 @@
+android {
+  signingConfigs {
+    release {
+      storeFile file("sensitive/sensitive.jks")
+      storePassword "SENHA_CHAVE"
+      keyAlias "ALIAS_CHAVE"
+      keyPassword "SENHA_ALIAS"
+    }
+  }
+ 
+  buildTypes {
+    release {
+      signingConfig signingConfigs.release
+    }
+  }
+}
+
+
+// Configuração de Integração com o Google Play
+play {
+    serviceAccountEmail = 'GRANDE_HASH@developer.gserviceaccount.com'
+    pk12File = file('sensitive/play_key.p12')
+    track = 'alpha'
+}
