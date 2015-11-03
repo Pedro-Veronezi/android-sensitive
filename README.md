@@ -1,7 +1,7 @@
-Vetty Sensitive
+Android Sensitive
 ===================================
 
-Este repositório tem como objetivo desacoplar informações e artefatos sensiveis a aplicação Vetty.
+Este repositório tem como objetivo desacoplar informações e artefatos sensiveis a aplicação Android.
 
 Passos
 --------------
