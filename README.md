@@ -15,7 +15,7 @@ if(file("sensitive/sensitive.gradle").exists()) {
 
 2. Gerar chave de Release e adicionar na raiz
 
-3. Gerar chave para o acesso ao Google Play e colocar na raiz
+3. Gerar chave para o acesso ao Google Play e colocar na raiz deste projeto.
 
 4. Configurar o sensitive.gradle com as configuração do Release
 
