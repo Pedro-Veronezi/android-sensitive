@@ -1,10 +1,10 @@
 android {
   signingConfigs {
     release {
-      storeFile file("sensitive/sensitive.jks")
+      storeFile file("sensitive/release_key.jks")
       storePassword "SENHA_CHAVE"
       keyAlias "ALIAS_CHAVE"
-      keyPassword "SENHA_ALIAS"
+      keyPassword "ALIAS_SENHA"
     }
   }
  
