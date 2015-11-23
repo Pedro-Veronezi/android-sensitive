@@ -20,7 +20,8 @@ if(file("sensitive/sensitive.gradle").exists()) {
 
 5. Configurar o sensitive.gradle com as configuração do Release
 
-6. Adicionar a pasta sensitive no .gitignore
+6. Adicionar a pasta sensitive no .gitignore do app:
+    sensitive/
 
 7. Fazer o primeiro deploy no Google play de forma manual
 
