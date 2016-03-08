@@ -5,7 +5,8 @@ Este repositório tem como objetivo desacoplar informações e artefatos sensive
 
 Passos
 --------------
-1. Criar uma pasta sensitive no modulo do app
+1. Dentro do diretório do modulo do app clonar como um submodulo:
+git submodule add https://github.com/Pedro-Veronezi/android-sensitive.git sensitive
 
 2. Incluir o sensitive.gradle no build.gradle do app com o seguinte bloco:
 apply plugin: 'com.github.triplet.play'
