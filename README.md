@@ -8,9 +8,9 @@ Passos
 1. Dentro do diretório do modulo do app clonar como um submodulo:
 git submodule add https://github.com/Pedro-Veronezi/android-sensitive.git sensitive
 
-2. Incluir o sensitive.gradle no build.gradle do app com o seguinte bloco:
-apply plugin: 'com.github.triplet.play'
+2. Incluir o sensitive.gradle no build.gradle do app:
 
+Colocar depois do apply plugin: 'com.android.application' e do bloco buildscript, caso ele exista:
 if(file("sensitive/sensitive.gradle").exists()) {
     apply from: "sensitive/sensitive.gradle";
 }
@@ -21,11 +21,7 @@ if(file("sensitive/sensitive.gradle").exists()) {
 
 5. Configurar o sensitive.gradle com as configuração do Release
 
-6. Adicionar a pasta sensitive no .gitignore do app:
-
-    sensitive/
-
-7. Fazer o primeiro deploy no Google play de forma manual
+6. Fazer o primeiro deploy no Google play de forma manual
 
 Referência
 -------
